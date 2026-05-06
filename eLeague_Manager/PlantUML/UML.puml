@@ -1,0 +1,14 @@
+﻿@startuml
+class Equipo <<entity>> {
++ Nombre : string
++ FechaFundacion : date
+}
+class Jugador <<entity>>{
++ Nombre : string
++ Alias : string
++ Nivel : 
+}
+class PerfilEstadisticas{
+
+}
+@enduml
